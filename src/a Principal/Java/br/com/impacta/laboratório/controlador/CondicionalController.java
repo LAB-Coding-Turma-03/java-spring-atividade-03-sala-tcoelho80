@@ -14,7 +14,6 @@ public class CondicionalController {
 	public ResponseEntity<String> simularValores(@RequestParam(name="idade") int idade) {
 		int idadeCorte = 18;
 		
-		//int idadeEntrada = Integer.parseInt(idade);
 		var retorno = new String();
 
 		if (idade > idadeCorte){
